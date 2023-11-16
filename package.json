@@ -3,7 +3,8 @@
   "packageManager": "pnpm@8.10.5",
   "private": true,
   "scripts": {
-    "run": "node convert-slides.js"
+    "convert:js": "node convert-slides.js",
+    "convert:cmd": "asciidoctor-revealjs presentation.adoc"
   },
   "dependencies": {
     "@asciidoctor/reveal.js": "5.0.1",
