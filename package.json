@@ -1,0 +1,12 @@
+{
+  "name": "minimal-asciidoctor-revealjs-reproducer",
+  "packageManager": "pnpm@8.10.5",
+  "private": true,
+  "scripts": {
+    "run": "node convert-slides.js"
+  },
+  "dependencies": {
+    "@asciidoctor/reveal.js": "5.0.1",
+    "asciidoctor": "3.0.2"
+  }
+}
