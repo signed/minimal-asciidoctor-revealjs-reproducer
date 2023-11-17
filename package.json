@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "convert:js": "node convert-slides.js",
-    "convert:cmd": "asciidoctor-revealjs presentation.adoc"
+    "convert:cli": "asciidoctor-revealjs presentation.adoc"
   },
   "dependencies": {
     "@asciidoctor/reveal.js": "5.0.1",
